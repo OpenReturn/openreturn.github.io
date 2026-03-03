@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenReturn</title>
+<meta name="description" content="Open-source return protocol and portal for e-commerce. Compatible with UCP, MCP and A2A.">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--fg:#1a1a1a;--fg-m:#555;--fg-s:#888;--bg:#fafaf9;--bgc:#fff;--bd:#e4e4e3;--ac:#2563eb;--m:"IBM Plex Mono",monospace;--s:"IBM Plex Sans",-apple-system,sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--s);color:var(--fg);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+.c{max-width:720px;margin:0 auto;padding:0 24px}
+header{padding:48px 0 0}
+.logo{font-family:var(--m);font-size:20px;font-weight:600;letter-spacing:-0.02em}
+.st{display:inline-flex;align-items:center;gap:6px;font-family:var(--m);font-size:12px;font-weight:500;color:var(--fg-s);background:var(--bgc);border:1px solid var(--bd);padding:4px 12px;border-radius:100px;margin-bottom:24px}
+.sd{width:6px;height:6px;border-radius:50%;background:#f59e0b}
+h1{margin-top:32px;font-size:32px;font-weight:600;line-height:1.25;letter-spacing:-0.025em;max-width:580px}
+.intro{margin-top:20px;font-size:17px;color:var(--fg-m);max-width:560px;line-height:1.7}
+.lk{margin-top:28px;display:flex;gap:16px;flex-wrap:wrap}
+.lk a{display:inline-flex;align-items:center;gap:8px;font-family:var(--m);font-size:14px;font-weight:500;text-decoration:none;padding:10px 20px;border-radius:6px;transition:all .15s ease}
+.lk .p{background:var(--fg);color:#fff}
+.lk .p:hover{background:#333}
+.lk .q{background:var(--bgc);color:var(--fg);border:1px solid var(--bd)}
+.lk .q:hover{border-color:#ccc;background:#f5f5f4}
+hr{border:none;border-top:1px solid var(--bd);margin:48px 0}
+section h2{font-family:var(--m);font-size:13px;font-weight:500;text-transform:uppercase;letter-spacing:.08em;color:var(--fg-s);margin-bottom:20px}
+section p{font-size:16px;color:var(--fg-m);line-height:1.7;margin-bottom:16px}
+section p:last-child{margin-bottom:0}
+.g{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:4px}
+.cd{background:var(--bgc);border:1px solid var(--bd);border-radius:8px;padding:20px}
+.cd h3{font-family:var(--m);font-size:14px;font-weight:600;margin-bottom:8px}
+.cd p{font-size:14px;color:var(--fg-m);line-height:1.6;margin-bottom:0}
+.cp{display:flex;gap:12px;flex-wrap:wrap;margin-top:4px}
+.cp a{font-family:var(--m);font-size:13px;font-weight:500;text-decoration:none;color:var(--fg);background:var(--bgc);border:1px solid var(--bd);padding:8px 16px;border-radius:6px;transition:all .15s ease}
+.cp a:hover{border-color:var(--ac);color:var(--ac)}
+.ig{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0 32px}
+.ig h3{font-family:var(--m);font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:.06em;color:var(--fg-s);margin-bottom:8px}
+.ig ul{list-style:none;font-family:var(--m);font-size:14px;color:var(--fg-m);line-height:2}
+footer{padding:48px 0;font-size:14px;color:var(--fg-s)}
+footer a{color:var(--fg-m);text-decoration:none}
+footer a:hover{color:var(--fg)}
+.fi{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.ab a{color:var(--fg);text-decoration:underline;text-underline-offset:2px}
+@media(max-width:600px){h1{font-size:24px}.g{grid-template-columns:1fr}.ig{grid-template-columns:1fr;gap:24px 0}header{padding:32px 0 0}}
+</style>
+</head>
+<body>
+<div class="c">
+<header>
+<div class="logo">OpenReturn</div>
+<div class="st"><span class="sd"></span> In development</div>
+<h1>Open protocol for e-commerce returns and exchanges</h1>
+<p class="intro">A machine-readable standard for the return lifecycle that any e-commerce platform, headless commerce tool, or AI agent can integrate with. Self-hostable reference portal included. No intermediary touches your data.</p>
+<div class="lk">
+<a href="https://github.com/OpenReturn" class="p"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg> GitHub</a>
+<a href="https://github.com/OpenReturn/openreturn/discussions" class="q">Discussions</a>
+</div>
+</header>
+<hr>
+<section>
+<h2>What it does</h2>
+<div class="g">
+<div class="cd"><h3>Protocol specification</h3><p>Open standard describing the full return lifecycle: reason capture, exchange selection, carrier handoff, tracking, and refund or exchange completion.</p></div>
+<div class="cd"><h3>Agentic interface</h3><p>MCP server bindings and REST endpoints for AI agents to initiate and manage returns on behalf of consumers.</p></div>
+<div class="cd"><h3>Integration adapters</h3><p>Modular connectors for carriers, e-commerce platforms, and payment providers. Retailer-owned API keys, no intermediary margins.</p></div>
+<div class="cd"><h3>Reference portal</h3><p>Self-hostable Next.js application implementing the full return and exchange flow. Production-ready and open source.</p></div>
+</div>
+</section>
+<hr>
+<section>
+<h2>Why</h2>
+<p>Commercial return portals operate as shipping label aggregators, profiting from each return shipment. Their incentive is more returns, not fewer. They lock retailers into proprietary systems and control the return data.</p>
+<p>There is no open standard for how returns work programmatically. Every platform reimplements the same flows. Headless commerce and AI agents are locked out entirely.</p>
+<p>OpenReturn gives retailers control over their return process and data, provides an open protocol anyone can build on, and treats exchanges as a first-class flow to preserve sales and reduce waste.</p>
+</section>
+<hr>
+<section>
+<h2>Compatible with</h2>
+<div class="cp">
+<a href="https://ucp.dev">UCP</a>
+<a href="https://modelcontextprotocol.io">MCP</a>
+<a href="https://google.github.io/A2A/">A2A</a>
+<a href="https://spec.openapis.org/oas/latest.html">OpenAPI</a>
+</div>
+</section>
+<hr>
+<section>
+<h2>Integrations</h2>
+<div class="ig">
+<div><h3>Carriers</h3><ul><li>PostNL</li><li>DHL</li><li>UPS</li><li>DPD</li><li>FedEx</li><li>GLS</li><li>Budbee</li><li>Homerr</li></ul></div>
+<div><h3>Platforms</h3><ul><li>Shopify</li><li>WooCommerce</li><li>Magento</li><li>BigCommerce</li><li>Headless (generic)</li></ul></div>
+<div><h3>Payments</h3><ul><li>Mollie</li><li>Adyen</li><li>Stripe</li></ul></div>
+</div>
+</section>
+<hr>
+<section class="ab">
+<h2>About</h2>
+<p>OpenReturn is developed by <a href="https://itgoesforward.com">It Goes Forward</a>, a Netherlands-based company working on e-commerce logistics. The protocol and reference implementation are developed in the open, separately from our commercial services.</p>
+</section>
+<hr>
+<footer>
+<div class="fi">
+<span>OpenReturn &mdash; Apache-2.0</span>
+<a href="https://github.com/OpenReturn">github.com/OpenReturn</a>
+</div>
+</footer>
+</div>
+</body>
+</html>
