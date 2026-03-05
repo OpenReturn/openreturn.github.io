@@ -62,7 +62,7 @@ footer a:hover{color:var(--fg)}
 <h2>What it does</h2>
 <div class="g">
 <div class="cd"><h3>Protocol specification</h3><p>Open standard with REST API covering the full return lifecycle: reason capture, exchange selection, carrier handoff, tracking, notification events, and multiple resolution types (refund, exchange, store credit). Extensible return method interface for third-party services. Discovery via <code>/.well-known/openreturn</code> or UCP capability advertisement.</p></div>
-<div class="cd"><h3>MCP server</h3><p>MCP server allowing AI agents to manage returns on behalf of consumers. Discoverable via the retailer's domain, so any chatbot can find and connect to the right endpoint. OAuth 2.1 token delegation for the consumer-agent-retailer chain.</p></div>
+<div class="cd"><h3>MCP server</h3><p>Wraps the REST API so AI agents can manage returns via the Model Context Protocol. Discoverable via the retailer's domain. OAuth 2.1 token delegation for the consumer-agent-retailer chain.</p></div>
 <div class="cd"><h3>Integration adapters</h3><p>Modular connectors for carriers, e-commerce platforms, and payment providers. Retailer-owned API keys, no intermediary margins. Open adapter interfaces for community contributions.</p></div>
 <div class="cd"><h3>Reference portal</h3><p>Self-hostable Next.js application with full return and exchange flow. Transactional email delivery (label, tracking, refund confirmation). WCAG 2.1 AA accessible. Open source.</p></div>
 </div>
